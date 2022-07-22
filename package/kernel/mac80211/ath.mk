@@ -282,7 +282,7 @@ define KernelPackage/ath11k
   TITLE:=Atheros 802.11ax wireless cards support
   URL:=https://wireless.wiki.kernel.org/en/users/drivers/ath11k
   DEPENDS+= @TARGET_ipq60xx +kmod-ath +@DRIVER_11N_SUPPORT +@DRIVER_11AC_SUPPORT \
-	+@DRIVER_11AX_SUPPORT +@DRIVER_11W_SUPPORT +kmod-qca-nss-drv
+	+@DRIVER_11AX_SUPPORT +@DRIVER_11W_SUPPORT +kmod-qca-nss-drv +kmod-hwmon-core
   FILES:= \
 	$(PKG_BUILD_DIR)/drivers/net/wireless/ath/ath11k/ath11k.ko
 endef
