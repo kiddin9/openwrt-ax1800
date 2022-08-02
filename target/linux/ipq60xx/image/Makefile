@@ -105,7 +105,7 @@ define Device/qihoo_v6
 	PAGESIZE := 2048
 	DEVICE_DTS := qcom-ipq6018-qihoo-v6
 	DEVICE_DTS_CONFIG := config@cp03-c1
-	DEVICE_TITLE := Qihoo V6
+	DEVICE_TITLE := Qihoo 360 V6
 	DEVICE_PACKAGES := kmod-usb3 kmod-usb-phy-msm
 endef
 TARGET_DEVICES += qihoo_v6
